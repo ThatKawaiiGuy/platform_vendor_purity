@@ -15,6 +15,9 @@
 ifeq (purity_grouper,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/purity_grouper.mk
 endif
+ifeq (purity_gee,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/purity_gee.mk
+endif
 ifeq (purity_hammerhead,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/purity_hammerhead.mk
 endif
